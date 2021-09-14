@@ -15,7 +15,7 @@ project(hpmpc)
 set(TARGET C99_4X4)
 
 # use BLASFEO?
-set(USE_BLASFEO 1)
+set(USE_BLASFEO 0)
 set(BLASFEO_PATH ${PROJECT_SOURCE_DIR}/../blasfeo)
 
 # headers installation directory
